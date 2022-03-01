@@ -1,0 +1,31 @@
+name: bmcs_env
+channels:
+- conda-forge
+dependencies:
+- traits==6.2.0
+- matplotlib==3.3.3
+- numpy==1.19.4
+- sympy==1.7.1
+- scipy==1.5.3
+- k3d==2.9.7
+- ipywidgets==7.6.3
+- ipympl==0.7.0
+- ipyregulartable==0.2.0
+- ipytree==0.2.1
+- pyface==7.3.0
+- traitsui==7.1.0
+- gmsh
+- jupyterlab
+- pip
+- pip:
+  - bmcs-utils
+  - bmcs-ibvpy
+  - bmcs-matmod
+  - bmcs-cross-section
+  - bmcs-beam
+  - bmcs-shell
+  - shapely
+  - pygmsh
+  - openpyxl
+  - anastruct
+
